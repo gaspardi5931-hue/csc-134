@@ -24,14 +24,39 @@ void question4();
 
 int main() {
     // Run only the questions you finish by removing the // 
-    //question1();
+    question1();
     //question2();
     //question3();
     //question4();
 }
 
 void question1() {
-    cout << "Question 1 goes here" << endl;
+    string name;
+double startingBalance;
+double deposit;
+double withdrawal;
+double finalBalance;
+int accountNumber = 1234;
+
+cout << "Enter your name: ";
+getline(cin,name);
+
+cout << "Enter starting account balance: $";
+cin >> startingBalance;
+
+cout << "Enter deposit amount: $";
+cin >> deposit;
+
+cout << "Enter withdrawal amount: $";
+cin >> withdrawal;
+
+finalBalance = startingBalance + deposit - withdrawal;
+
+cout << fixed << setprecision(2);
+
+cout << "Name on account: " << name << endl;
+cout << "Account number: " << accountNumber << endl;
+cout << "Final account balance: $" << finalBalance << endl;
 }
 
 void question2() {
