@@ -1,7 +1,8 @@
 /*
 CSC 134
 M5T2
-Wtih a patner , write a C++ program that prints 1 to 10 and their suqares using one value-returning function and one void function
+Wtih a Chat gpt , i write a C++ program that prints 1 to 10 and their suqares using one value-returning function and one void function
+
 */
 
 #include <iostream>
